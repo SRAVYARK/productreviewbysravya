@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { addReview } from '../store/reviewSlice';
 import axios from 'axios';
+import "./ReviewForm.css"
 
 const ReviewForm = ({ productId }) => {
   const [review, setReview] = useState('');
