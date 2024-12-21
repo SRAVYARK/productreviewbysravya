@@ -12,10 +12,8 @@ const ReviewForm = ({ productId }) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // Add review through Redux
     dispatch(addReview({ productId, review, rating }));
 
-    // Send review to json-server
     await axios.post('http://localhost:3000/reviews', {
       productId,
       review,
