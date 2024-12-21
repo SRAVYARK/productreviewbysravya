@@ -1,0 +1,40 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Product 1",
+      "description": "Description of Product 1",
+      "price": 100
+    },
+    {
+      "id": 2,
+      "name": "Product 2",
+      "description": "Description of Product 2",
+      "price": 150
+    }
+  ],
+  "reviews": [
+    {
+      "productId": 1,
+      "review": "Great product!",
+      "rating": 5
+    },
+    {
+      "productId": 2,
+      "review": "Good value for money.",
+      "rating": 4
+    },
+    {
+      "id": "82cd",
+      "productId": 1,
+      "review": "PRODUCT IS VERY GOOD",
+      "rating": 5
+    },
+    {
+      "id": "ff3f",
+      "productId": 2,
+      "review": "GOOD",
+      "rating": 4
+    }
+  ]
+}
